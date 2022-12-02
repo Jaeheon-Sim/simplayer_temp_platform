@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/simplayer_temp_platform/static/css/main.073c9b0a.css",
-    "main.js": "/simplayer_temp_platform/static/js/main.3e2db5ce.js",
+    "main.js": "/simplayer_temp_platform/static/js/main.55fa0e14.js",
     "static/js/787.2dbc8ce9.chunk.js": "/simplayer_temp_platform/static/js/787.2dbc8ce9.chunk.js",
     "static/media/camp.png": "/simplayer_temp_platform/static/media/camp.08cc0ba78af32d1017e2.png",
     "index.html": "/simplayer_temp_platform/index.html",
     "main.073c9b0a.css.map": "/simplayer_temp_platform/static/css/main.073c9b0a.css.map",
-    "main.3e2db5ce.js.map": "/simplayer_temp_platform/static/js/main.3e2db5ce.js.map",
+    "main.55fa0e14.js.map": "/simplayer_temp_platform/static/js/main.55fa0e14.js.map",
     "787.2dbc8ce9.chunk.js.map": "/simplayer_temp_platform/static/js/787.2dbc8ce9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3e2db5ce.js"
+    "static/js/main.55fa0e14.js"
   ]
 }
