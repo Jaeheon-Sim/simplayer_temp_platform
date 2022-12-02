@@ -55,7 +55,7 @@ export default function Joen() {
           "Access-Control-Allow-Origin": "*",
           "X-AUTH-TOKEN": accessToken,
         },
-        body: JSON.stringify({ unitId: 1, courseId: 1 }),
+        body: JSON.stringify({ unitId: 10, courseId: 2 }),
       });
       const json = await res.json();
       window.open(json.redirectUrl, "_blank");

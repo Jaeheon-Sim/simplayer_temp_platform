@@ -60,22 +60,22 @@ export default function Manager() {
       new Blob(
         [
           JSON.stringify({
-            description: "test 강의 입니다",
-            objective: "test입니다",
-            title: "test unit3",
+            description: "AL-01강",
+            objective: "개념 1",
+            title: "어플리케이션 설계 및 개발의 개요",
           }),
         ],
         { type: "application/json" }
       )
     );
 
-    fetch(`${STATICURL}/open/courses/1/units`, {
+    fetch(`${STATICURL}/open/courses/2/units`, {
       method: "POST",
       headers: {
         "Access-Control-Allow-Credentials": true,
         "Access-Control-Allow-Origin": "*",
         "X-AUTH-TOKEN":
-          "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTY2OTM5MTg5MSwiZXhwIjoxNzAwOTI3ODkxfQ.1a1uEI3VnWdD5lyryHH5J97coqw1J96uWMulXnzG1Qo",
+          "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjY5OTk0MDg2LCJleHAiOjE3MDE1MzAwODZ9.3Ieu1UsdkIvcPOs8m9kRYaDrVTQFmJbd_uG_0ANg-Go",
       },
       body: formData,
       keepalive: true,

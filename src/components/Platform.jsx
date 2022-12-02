@@ -92,16 +92,16 @@ export default function Platform() {
       new Blob(
         [
           JSON.stringify({
-            description: "test 강의 입니다",
-            objective: "test입니다",
-            title: "test unit4",
+            description: "AL-06강",
+            objective: "수학1",
+            title: "배수와 약수",
           }),
         ],
         { type: "application/json" }
       )
     );
 
-    fetch(`${STATICURL}/open/courses/1/units`, {
+    fetch(`${STATICURL}/open/courses/2/units`, {
       method: "POST",
       headers: {
         "Access-Control-Allow-Credentials": true,
