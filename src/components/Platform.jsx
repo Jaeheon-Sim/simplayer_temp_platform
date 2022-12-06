@@ -71,7 +71,7 @@ export default function Platform() {
           "Access-Control-Allow-Origin": "*",
           "X-AUTH-TOKEN": accessToken,
         },
-        body: JSON.stringify({ unitId: 1, courseId: 1 }),
+        body: JSON.stringify({ unitId: 10, courseId: 2 }),
       });
       const json = await res.json();
       window.open(json.redirectUrl, "_blank");
@@ -92,9 +92,9 @@ export default function Platform() {
       new Blob(
         [
           JSON.stringify({
-            description: "AL-06강",
-            objective: "수학1",
-            title: "배수와 약수",
+            description: ".",
+            objective: ".1",
+            title: "시연 영상",
           }),
         ],
         { type: "application/json" }

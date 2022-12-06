@@ -24,7 +24,7 @@ function App() {
 
   return (
     <Container>
-      {click ? (
+      {/* {click ? (
         <>
           <Btn
             onClick={() => {
@@ -45,7 +45,8 @@ function App() {
         </>
       ) : null}
 
-      {menu[platOrJoen]}
+      {menu[platOrJoen]} */}
+      <Platform/>
     </Container>
   );
 }
