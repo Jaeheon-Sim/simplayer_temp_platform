@@ -71,7 +71,7 @@ export default function Platform() {
           "Access-Control-Allow-Origin": "*",
           "X-AUTH-TOKEN": accessToken,
         },
-        body: JSON.stringify({ unitId: 17, courseId: 2 }),
+        body: JSON.stringify({ unitId: 19, courseId: 3 }),
       });
       const json = await res.json();
       window.open(json.redirectUrl, "_blank");
@@ -101,7 +101,7 @@ export default function Platform() {
       )
     );
 
-    fetch(`${STATICURL}/open/courses/2/units`, {
+    fetch(`${STATICURL}/open/courses/3/units`, {
       method: "POST",
       headers: {
         "Access-Control-Allow-Credentials": true,
