@@ -93,8 +93,8 @@ export default function Platform() {
         [
           JSON.stringify({
             description: ".",
-            objective: ".1",
-            title: "시연 영상",
+            objective: ".2",
+            title: "시연 영상, 강의 목차 이동을 위한 영상",
           }),
         ],
         { type: "application/json" }
@@ -145,6 +145,30 @@ export default function Platform() {
           <button onClick={logout}>로그아웃</button>
         </TempBox>
         <TempBox>
+          <p>해당 페이지는 플레이어를 실행하기 위한 임시 페이지 입니다.</p>
+          <p>
+            원 강의 플랫폼에서는 원활한 이용이 가능하지만 임시플랫폼에서는
+            별도의 설정이 필요합니다.
+          </p>
+          <br />
+          <p>
+            이 페이지는 https 프로토콜을 사용하기때문에 http 프로토콜을 사용하는
+            API 서버와의 통신에서 오류가 발생합니다.
+          </p>
+
+          <p>
+            그렇기때문에 chrome 브라우저를 사용하여, 브라우저 상단 url 옆
+            자물쇠를 클릭해 사이트 설정으로 간 후,
+          </p>
+          <p>허용되지 않은 컨텐츠를 "허용" 상태로 바꾸어야지 정상작동합니다.</p>
+          <br />
+          <p>
+            이후 로그인 -> 강의시청 버튼을 순서대로 누르면 플레이어가 실행
+            됩니다.
+          </p>
+          <br />
+        </TempBox>
+        {/* <TempBox>
           <div>
             <Form>
               <Input
@@ -174,7 +198,7 @@ export default function Platform() {
               <button onClick={upload}>업로드</button>
             </Form>
           </div>
-        </TempBox>
+        </TempBox> */}
       </TempTab>
     </Wrapper>
   );
